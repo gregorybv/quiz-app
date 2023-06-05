@@ -17,7 +17,7 @@ const page = () => {
   const { questions } = quiz;
   const { question, answers, correctAnswer } = questions[activeQuestion];
 
-  //   Выберать и проверить ответ
+  //   Выбрать и проверить ответ
   const onAnswerSelected = (answer, idx) => {
     setChecked(true);
     setSelectedAnswerIndex(idx);
