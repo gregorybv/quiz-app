@@ -1,5 +1,6 @@
 export const quiz = {
   totalQuestions: 5,
+  // при желании вопросы можно добавить
   questions: [
     {
       id: 1,
