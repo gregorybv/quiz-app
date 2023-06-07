@@ -9,7 +9,6 @@ export default function Home() {
         <Link href="/quiz">
           <button>Start Quiz</button>
         </Link>
-        
       </div>
     </main>
   );
